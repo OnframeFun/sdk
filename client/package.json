@@ -1,0 +1,13 @@
+{
+  "name": "onframe-client",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "axios": "^1.6.0"
+  }
+}
