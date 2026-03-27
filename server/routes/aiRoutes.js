@@ -1,0 +1,7 @@
+const express = require("express");
+const router = express.Router();
+const { generateAI } = require("../controllers/aiController");
+
+router.post("/", generateAI);
+
+module.exports = router;
